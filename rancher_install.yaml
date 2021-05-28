@@ -1,0 +1,5 @@
+---
+- hosts: all
+  roles:
+    - knelldev.rancher_install
+  become: yes

@@ -1,0 +1,5 @@
+---
+- hosts: all
+  roles:
+    - knelldev.docker_install
+  become: yes
